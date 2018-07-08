@@ -1,8 +1,9 @@
-Instructions for testing:
+Instructions for demo-ing:
 
-Use Metamask extension in Chrome,
-paste contract into remix.ethereum.org,
-obtain ether on a testnet,
-set VM in Metamask to your testnet.
+```
+npm i
+npm start
+```
 
-Compile, Run, Deploy.
+Use Metamask extension in Chrome, and connect to Ropsten testnet.
+Browse to localhost:3000

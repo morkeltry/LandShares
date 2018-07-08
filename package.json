@@ -9,9 +9,12 @@
     "small-server": "^1.2.1",
     "truffle": "^4.1.13"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
   "scripts": {
     "test": "mocha",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {

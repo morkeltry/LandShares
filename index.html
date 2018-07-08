@@ -79,7 +79,7 @@
 
                 <div class="container">
 
-                    <button class="btn btn-raised btn-warning" onclick = "doAnyTx">Create</button>
+                    <button class="btn btn-raised btn-warning" onclick = "doAnyTx(this)">Create</button>
 
                   <div class="row">
                     <div class="col-sm">
@@ -316,7 +316,7 @@
                         <h2>Farmer opportunietes</h2>
 
 
-                        <div class="card" style="width: 90%;">
+                        <div class="card" id="tx-1004-farmer" style="width: 90%;">
                           <div class="card-body">
                                  <div class="row">
                                     <div class="col-8">
@@ -329,7 +329,7 @@
                                             <form>
                                                   <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox"   onclick="doAnyTx()">
+                                                        <input type="checkbox" id="tx-1004-farmer-accept" onclick="doAnyTx(this.id)">
                                                     </label>
                                                   </div>
                                             </form>
@@ -470,7 +470,7 @@
                         <h2>Retailer offer</h2>
 
 
-                        <div class="card" style="width: 90%;">
+                        <div class="card" id="tx-1073-landowner" style="width: 90%;">
                           <div class="card-body">
                                  <div class="row">
                                     <div class="col-8">
@@ -482,7 +482,7 @@
                                             <form>
                                                   <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" onclick="doAnyTx()">
+                                                        <input type="checkbox" id="tx-1073-landowner-accept" onclick="doAnyTx(this)">
                                                     </label>
                                                   </div>
                                             </form>
