@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Food supply power</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Administration panel
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#farmers">Farmers</a>
+                </li>
+                <li>
+                    <a href="#landowners">Landowners</a>
+                </li>
+                <li>
+                    <a href="#retailers">Retailers</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="jumbotron">
+              <h1>Food supply power</h1>
+                <p>Shift in the food power supply to change millions of lives.</p>
+
+            </div>
+
+            <div class="container-fluid">
+
+                <img src="img/female-farmer-kenya-west.jpg" />
+
+
+
+            </div>
+
+
+
+            <h1 id="farmers">Farmers</h1>
+            <div  >
+
+                <!-- Farmers -->
+
+
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#farmerSectionA" type="button" class="btn btn-primary"> Add Farmer  </a></li>
+                    <li><a data-toggle="tab" href="#farmerSectionB" type="button" class="btn btn-primary">Farmers</a></li>
+                    <li><a data-toggle="tab" href="#farmerSectionC" type="button" class="btn btn-primary">Agreements </a></li>
+
+                </ul>
+
+    <div class="tab-content">
+        <div id="farmerSectionA" class="tab-pane fade in active">
+            <h3>Add farmer</h3>
+
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="bmd-label-floating">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <span class="bmd-help">We'll never share your email with anyone else.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="bmd-label-floating">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                    <div class="form-group">
+                    <label for="first" class="bmd-label-floating">First</label>
+                    <input type="text" class="form-control" id="first">
+                  </div>
+
+
+          <a class="btn btn-default" href="#farmerSectionA">Cancel</a>
+
+          <button type="button" class="btn btn-primary btn-raised" data-toggle="modal" data-target="#exampleModal">
+               Submit
+            </button>
+        </form>
+
+
+        </div>
+        <div id="farmerSectionB" class="tab-pane fade">
+            <h3>Farmers List </h3>
+
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Public key</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>32985932ujrwio490mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+        </div>
+
+         <div id="farmerSectionC" class="tab-pane fade">
+            <h3>Agreements</h3>
+
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">12398579284ut8954</th>
+                      <td>
+                            <div class="switch">
+                                <label>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="lever"></span>
+                                </label>
+                            </div>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3958729485043509432</th>
+                      <td>
+
+                            <div class="switch">
+                                <label>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="lever"></span>
+                                </label>
+                            </div>
+
+                      </td>
+                    </tr>
+
+
+              </tbody>
+            </table>
+
+         </div>
+
+        <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Succes</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+            </div>
+
+
+
+            <div class="last-container-fluid">
+
+
+            </div>
+
+           <!-- <h1 id="landowners">Landowners</h1>
+            <div class="container-fluid">
+
+
+            </div>
+
+
+            <h1 id="retailers">Retailers</h1>
+            <div class="container-fluid">
+
+
+            </div>
+
+
+            <h1 id="about">About</h1>
+            <div class="container-fluid">
+
+
+            </div>
+            -->
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+
+
+</body>
+
+</html>
