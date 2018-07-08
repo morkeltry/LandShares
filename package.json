@@ -1,0 +1,27 @@
+{
+  "name": "landshares",
+  "version": "1.0.0",
+  "description": "ERC20 Smart contract for Quantum Impact/ UN susdev goals hackathon",
+  "main": "main.js",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "serve-static": "^1.13.2",
+    "small-server": "^1.2.1",
+    "truffle": "^4.1.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morkeltry/LandShares.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morkeltry/LandShares/issues"
+  },
+  "homepage": "https://github.com/morkeltry/LandShares#readme"
+}
