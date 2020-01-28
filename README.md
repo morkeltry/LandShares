@@ -16,3 +16,4 @@ If retailer pays, then landowner and farmer split money and landowner receives d
 #### Future development:
 * The UN has this week launched QI coin. As the smart contract requires transactions to be made in an Ethereum token, using QI coin will be preferable to a token created solely for this application, as it will have a broader base of accessibility, reducing currency risk ansd supply risk.
 * Admin panel - to be used, eg by UN, with rights such as setting the deposit amount for landowners / retailers using impartial macro knowledge. This is currently set by retailer.
+
